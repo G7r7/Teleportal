@@ -6,7 +6,7 @@ public class XRPreciseGrabInteractable : XRGrabInteractable
     private Vector3 position = Vector3.zero;
     private Quaternion rotation = Quaternion.identity;
 
-    protected override void OnSelectEnter(XRBaseInteractor interactor)
+/*    protected override void OnSelectEnter(XRBaseInteractor interactor)
     {
         base.OnSelectEnter(interactor);
 
@@ -33,5 +33,5 @@ public class XRPreciseGrabInteractable : XRGrabInteractable
         // Restore the private members to their default value
         this.position = Vector3.zero;
         this.rotation = Quaternion.identity;
-    }
+    }*/
 }
