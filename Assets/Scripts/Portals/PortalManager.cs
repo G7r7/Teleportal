@@ -10,11 +10,6 @@ public class PortalManager : MonoBehaviour
     public GameObject portal2;
     public XRController controller;
 
-    void Start()
-    {
-        currentPortal = 0;
-    }
-
     public void setCurrentFirstPortal()
     {
         currentPortal = 0;

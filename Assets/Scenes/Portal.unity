@@ -633,7 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b02c984b312ea4ea3407895ab375db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalManager: {fileID: 0}
+  PortalManager: {fileID: 929960707876463277}
   PortalId: 0
 --- !u!114 &1214443646
 MonoBehaviour:
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b02c984b312ea4ea3407895ab375db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalManager: {fileID: 0}
+  PortalManager: {fileID: 929960707876463277}
   PortalId: 0
 --- !u!114 &1217472559
 MonoBehaviour:
@@ -1212,6 +1212,11 @@ PrefabInstance:
       propertyPath: debug
       value: 
       objectReference: {fileID: 1742695175}
+    - target: {fileID: 1175635639019012602, guid: 0c50bf67d941f304a94c2d25b31d7665,
+        type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 720218750}
     - target: {fileID: 1623524349477739058, guid: 0c50bf67d941f304a94c2d25b31d7665,
         type: 3}
       propertyPath: m_RootOrder
@@ -1275,7 +1280,7 @@ PrefabInstance:
     - target: {fileID: 5110008784411221096, guid: 0c50bf67d941f304a94c2d25b31d7665,
         type: 3}
       propertyPath: m_Name
-      value: portalManager
+      value: PortalManager
       objectReference: {fileID: 0}
     - target: {fileID: 5110008784411221096, guid: 0c50bf67d941f304a94c2d25b31d7665,
         type: 3}
