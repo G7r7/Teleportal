@@ -11,21 +11,30 @@ public class portal : MonoBehaviour
 
     public XRController leftH;
 
-
-
     // Référence au prefab du cube à instancier
     public GameObject cylinder;
 
+    public GameObject sphere;
 
     public void createPortal()
     {
         RaycastHit hit;
         Physics.Raycast(leftH.transform.position, leftH.transform.forward, out hit);
-        Debug.Log(hit.collider.name);
-        cylinder = Instantiate(cylinder, hit.point, Quaternion.identity);
-        cylinder.transform.position = hit.point;
-        cylinder.transform.rotation = hit.transform.gameObject.transform.rotation;
 
+        if (!PortalManager.isCurrentPortalSet())
+        {
+            if (PortalManager.currentPortal == 0)
+            {
+                PortalManager.setCurrentPortal(Instantiate(cylinder, hit.point, Quaternion.identity));
+            }
+            else
+            {
+                PortalManager.setCurrentPortal(Instantiate(sphere, hit.point, Quaternion.identity));
+            }
+        }
+
+
+        PortalManager.placePortal(hit.point, hit.transform.gameObject.transform.rotation);
     }
 }
 /*
