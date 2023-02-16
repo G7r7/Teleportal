@@ -42,13 +42,12 @@ public class PortalManager : MonoBehaviour
     public void TeleportObject(GameObject obj, int sourceId)
     {
         Vector3 newPosition;
-        if (sourceId == 0)
-        {
+        if (sourceId == 0) { 
             newPosition = portal2.transform.position;
         } else {
             newPosition = portal1.transform.position;
         }
-        obj.transform.position = newPosition + new Vector3(2,2,2);
+        obj.transform.position = newPosition;
     }
 
 }
