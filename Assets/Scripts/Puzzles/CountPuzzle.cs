@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Puzzle : MonoBehaviour
+public class CountPuzzle : MonoBehaviour
 {
     public GameObject obj;
     public Material validMaterial;
