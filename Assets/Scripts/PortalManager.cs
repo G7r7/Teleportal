@@ -4,33 +4,60 @@ using UnityEngine;
 
 public class PortalManager : MonoBehaviour
 {
-    public static List<GameObject> portals = new List<GameObject>();
-    public static int currentPortal = 0;
+    public int currentPortal;
+    private GameObject portal1;
+    private GameObject portal2;
 
-    public static bool isCurrentPortalSet()
+    void Start()
     {
-        return portals[currentPortal] != null;
+        portal1 = null;
+        portal2 = null;
+        currentPortal = 0;
     }
 
-    public static void setCurrentFirstPortal()
+    public bool isFirstPortalSet()
+    {
+        return portal1 != null;
+    }
+
+    public bool isSecondPortalSet()
+    {
+        return portal2 != null;
+    }
+
+    public void setCurrentFirstPortal()
     {
         currentPortal = 0;
     }
 
-    public static void setCurrentSecondPortal()
+    public void setCurrentSecondPortal()
     {
         currentPortal = 1;
     }
 
-    public static void setCurrentPortal(GameObject portal)
+    public void setFirstPortal(GameObject portal)
     {
-        portals[currentPortal] = portal;
+        portal1 = portal;
     }
 
-    public static void placePortal(Vector3 position, Quaternion rotation)
+    public void setSecondPortal(GameObject portal)
     {
-        portals[currentPortal].transform.position = position;
-        portals[currentPortal].transform.rotation = rotation;
+        portal2 = portal;
+    }
+
+    public void placePortal(Vector3 position, Quaternion rotation)
+    {
+        if (currentPortal == 0)
+        {
+            portal1.transform.position = position;
+            portal1.transform.rotation = rotation;
+        }
+        else
+        {
+            portal2.transform.position = position;
+            portal2.transform.rotation = rotation;
+        }
+
     }
 
 }
