@@ -1,0 +1,245 @@
+[33mcommit 937c6dc5306e149bf484e8c956676ddc53ccf57c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/simulator[m[33m, [m[1;32msimulator[m[33m)[m
+Author: Germain Rullier <grullier@free.fr>
+Date:   Sat Feb 18 14:42:43 2023 +0100
+
+    Xr origin
+
+[33mcommit 524b1f1dbde68fed890a25185d8a32e780c4feab[m
+Author: Germain RULLIER <grullier@free.fr>
+Date:   Fri Feb 17 12:03:02 2023 +0100
+
+    Refactor XR
+
+[33mcommit 5cfc7de157d4c7479e97f33f896611f36782a4c3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Germain Rullier <grullier@free.fr>
+Date:   Thu Feb 16 23:06:30 2023 +0100
+
+    Teleportable
+
+[33mcommit c9ca9cc27a364e2d2db02fdac22a12f6b19f2db6[m
+Author: Germain Rullier <grullier@free.fr>
+Date:   Thu Feb 16 20:59:44 2023 +0100
+
+    Fix
+
+[33mcommit 879524e355f34865c783486f7a2762ed592d1fb1[m
+Merge: 3ee337d 5b60339
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Thu Feb 16 18:20:45 2023 +0100
+
+    Merge pull request #14 from Zarkor78/master
+    
+    Portal manager refactor
+
+[33mcommit 5b6033990feb6083ea6afe5b6db698a21d45489b[m
+Author: Toufik Has <toufik.has@u-psud.fr>
+Date:   Thu Feb 16 17:33:33 2023 +0100
+
+    Portal manager refactor
+
+[33mcommit 3ee337d378d3d0cfd89743431dc4a0142b81a928[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Thu Feb 16 15:37:36 2023 +0100
+
+    Refactor
+
+[33mcommit b46fb52a2187fbc2054c96c32d4ab5a4a4248913[m
+Merge: d79edc4 f286410
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Thu Feb 16 14:59:38 2023 +0100
+
+    Merge pull request #13 from Zarkor78/master
+    
+    Placement des deux portails
+
+[33mcommit f286410836d2f3235a3167b2f8128e4c333a4090[m
+Merge: 1dcdb98 d79edc4
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Thu Feb 16 14:59:30 2023 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 1dcdb981e0afce27dc97cb77b9f9d343dac5be8a[m
+Author: Toufik Has <toufik.has@u-psud.fr>
+Date:   Thu Feb 16 14:53:01 2023 +0100
+
+    Placement des deux portails
+
+[33mcommit d79edc46473b4b93931d57a69c7f2a790a84ebd5[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Thu Feb 16 14:47:50 2023 +0100
+
+    Count Puzzle
+
+[33mcommit 30b746c437a207a6e4b5bfae4ca5e4a57551e4ff[m
+Merge: e6bd1b9 4b33688
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Thu Feb 16 13:37:29 2023 +0100
+
+    Merge pull request #12 from SenecatLoic/master
+    
+    Add portal manager
+
+[33mcommit 4b33688f12d0ccc4775dd98ee4c949a57cf16cfd[m
+Merge: 415ae9f e6bd1b9
+Author: Senecat <55601215+SenecatLoic@users.noreply.github.com>
+Date:   Thu Feb 16 13:35:24 2023 +0100
+
+    Merge branch 'G7r7:master' into master
+
+[33mcommit 415ae9fac99dc99fa8d0a8b585969a2e4e7af896[m
+Author: Loic Senecat <loic.senecat@u-psud.fr>
+Date:   Tue Feb 14 17:31:54 2023 +0100
+
+    add portal script
+
+[33mcommit e6bd1b960723f4dd2715b4de22bbd2c9a54aec24[m
+Merge: 47cf009 57c48da
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Tue Feb 14 17:31:41 2023 +0100
+
+    Merge pull request #11 from Zarkor78/master
+    
+    Bouton
+
+[33mcommit 57c48daafb43284a991c4c401805be3d0ae44b78[m
+Author: Toufik Has <toufik.has@u-psud.fr>
+Date:   Tue Feb 14 17:30:02 2023 +0100
+
+    Bouton
+
+[33mcommit 47cf00955c879f2a6fe6a716fda2541a87736477[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Tue Feb 14 15:28:03 2023 +0100
+
+    Merge portal
+
+[33mcommit 91663223f10f80f6cede6ffac3a49f10df6de830[m
+Merge: b0c5396 a46694b
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Tue Feb 14 15:19:14 2023 +0100
+
+    Merge pull request #10 from Zarkor78/master
+    
+    Creation portail
+
+[33mcommit a46694baea6044e9417891f57ba6c9add241c921[m
+Merge: 44748a7 b0c5396
+Author: Zarkor78 <93624393+Zarkor78@users.noreply.github.com>
+Date:   Tue Feb 14 15:17:41 2023 +0100
+
+    Merge branch 'G7r7:master' into master
+
+[33mcommit 44748a744d0f79d596ccdeea48c2e12c13941e06[m
+Author: Toufik Has <toufik.has@u-psud.fr>
+Date:   Tue Feb 14 15:17:12 2023 +0100
+
+    Creation portail
+
+[33mcommit b0c5396da256353523bfecf452e7638754066ccf[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Tue Feb 14 14:45:14 2023 +0100
+
+    Menu reset
+
+[33mcommit 0a656fea5be0d6fbab26279ea711988c14a3c66c[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Mon Feb 13 16:52:16 2023 +0100
+
+    Cubes
+
+[33mcommit fe7c502dc44b82616ff81b82b14161c626ec218d[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Mon Feb 13 16:30:46 2023 +0100
+
+    Grab
+
+[33mcommit 89128c0c0e62535b47c3c7ceeae41fab15200a0a[m
+Merge: 7befa66 6c0b149
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Mon Feb 13 14:50:16 2023 +0100
+
+    Merge pull request #9 from Zarkor78/master
+    
+    Déplacement manette
+
+[33mcommit 6c0b1493934d37c8ef6bc7d5bae65bca394a3a93[m
+Author: Toufik Has <toufik.has@u-psud.fr>
+Date:   Mon Feb 13 14:48:28 2023 +0100
+
+    Déplacement manette
+
+[33mcommit 7befa66e7eabce147b9f61606a44f00b6593a09f[m
+Merge: 9e7e8df c305f08
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Thu Jan 26 16:57:55 2023 +0100
+
+    Merge pull request #8 from SenecatLoic/master
+    
+    Add teleportation movement
+
+[33mcommit c305f08f88ab127dd45f6a36cc5ca99d64d016fb[m
+Author: Loic Senecat <loic.senecat@u-psud.fr>
+Date:   Thu Jan 26 16:54:22 2023 +0100
+
+    Add teleportation movement
+
+[33mcommit 9e7e8df79c94e4c0403d701c90a8c4b66398293b[m
+Merge: 499db3b d24ab88
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Wed Jan 25 12:25:57 2023 +0100
+
+    Merge pull request #7 from G7r7/4-attraper-des-objets-de-façon-fine
+    
+    4 attraper des objets de façon fine
+
+[33mcommit d24ab88300b388ad1fa22d4053216dd40d3fff51[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Wed Jan 25 12:25:07 2023 +0100
+
+    Pile of cubes
+
+[33mcommit 7aadc2cf054a5d55f559beef07e483b65e6b71df[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Wed Jan 25 12:16:22 2023 +0100
+
+    Precise grab with ray
+
+[33mcommit 499db3bf4903bf0e8e87ec5ca74a5cc5184d61b8[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Wed Jan 25 11:44:39 2023 +0100
+
+    Saving changes
+
+[33mcommit b9d120868855435298bbd853debddeb262d50d68[m
+Author: Germain Rullier <germain.rullier@u-psud.fr>
+Date:   Wed Jan 25 11:23:44 2023 +0100
+
+    Fix controls
+
+[33mcommit 37ce295e164f7bc89045b266be0d53d0974a661e[m
+Merge: af3de82 613b266
+Author: G7r7 <72744587+G7r7@users.noreply.github.com>
+Date:   Wed Jan 25 09:40:01 2023 +0100
+
+    Merge pull request #5 from SenecatLoic/master
+    
+    Create readme.md
+
+[33mcommit 613b2663b8cb321a471d6ef4ca7cba98e0ad273e[m
+Author: Senecat <55601215+SenecatLoic@users.noreply.github.com>
+Date:   Wed Jan 25 09:35:07 2023 +0100
+
+    Create readme.md
+
+[33mcommit af3de82181fee0b67c36c294cb740db62c221df7[m
+Author: Germain Rullier <grullier@free.fr>
+Date:   Mon Jan 23 15:04:38 2023 +0100
+
+    Init
+
+[33mcommit 3643c96f297eabe2424dc7d98b1563b802df750c[m
+Author: Germain Rullier <grullier@free.fr>
+Date:   Mon Jan 23 15:04:04 2023 +0100
+
+    Initial commit
