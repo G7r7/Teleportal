@@ -2635,12 +2635,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: b468d543-fc12-4044-8b13-30303476d047
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 7fcb5b37-c39c-438f-ac4c-be8d0940cec2
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -2663,12 +2663,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 7743ba9e-6f20-4294-9eb6-ca415f7a710a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: e1b2c39e-3c4f-4ce4-9198-f3e7da61dd32
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -2715,6 +2715,8 @@ GameObject:
   - component: {fileID: 6266686102743458120}
   - component: {fileID: 6480587962200525970}
   - component: {fileID: 1571852227053181014}
+  - component: {fileID: 3518387143358536603}
+  - component: {fileID: 5287564500573810008}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -2768,3 +2770,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &3518387143358536603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221358967234654484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5423087dcf4ac74c95da6b676142efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: 4
+  speed: 4
+  ground:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!143 &5287564500573810008
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221358967234654484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
