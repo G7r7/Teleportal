@@ -17,6 +17,7 @@ public class Portal : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Teleportable>() == null) { return; } // Check if object is Teleportable
         debugText.text = "Collision";
+        debugText.text = other.name;
         PortalManager.TeleportObject(other.gameObject, PortalId);
     }
 

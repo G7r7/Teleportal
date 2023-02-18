@@ -10,9 +10,9 @@ public class ContinuousMovement : MonoBehaviour
     public XRNode controller;
     private Vector2 inputAxis;
     private CharacterController user;
+    private XROrigin rig;
     private bool padPressed;
     public float speed = 1f;
-    private XROrigin rig;
     public LayerMask ground;
     private float fallingSpeed = 0;
     private float gravity = 5;
