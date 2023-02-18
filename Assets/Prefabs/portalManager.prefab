@@ -113,7 +113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &852251207021455353
 Transform:
   m_ObjectHideFlags: 0
@@ -251,8 +251,9 @@ GameObject:
   - component: {fileID: 2599440390827860518}
   - component: {fileID: 5123870420126210517}
   - component: {fileID: 6225264168559990271}
+  - component: {fileID: 6448163985988563950}
   m_Layer: 5
-  m_Name: Orange
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,6 +372,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6448163985988563950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2612712738195953401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8f893f62812d349974c8ca77febb68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InactiveButtonImage: {fileID: 21300000, guid: 28b781480b4bb7240ad58baebe8f65dc,
+    type: 3}
+  ActiveButtonImage: {fileID: 21300000, guid: e622c4cbd3b9b2b4ca7ae808a8e3bf3b, type: 3}
+  portalManager: {fileID: 1175635639019012602}
+  portal: {fileID: 5382067680084372831}
 --- !u!1 &4354267528130197955
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7504074210501094405
 Transform:
   m_ObjectHideFlags: 0
@@ -482,9 +500,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPortal: 0
-  portal1: {fileID: 4354267528130197955}
-  portal2: {fileID: 431442641705650931}
+  portal1: {fileID: 4478822821846358875}
+  portal2: {fileID: 5382067680084372831}
   controller: {fileID: 0}
+  portal1Button: {fileID: 7896649756581062365}
+  portal2Button: {fileID: 6448163985988563950}
 --- !u!1 &5185004100763110049
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +734,7 @@ GameObject:
   - component: {fileID: 9211595447635046017}
   - component: {fileID: 6358570931137907742}
   - component: {fileID: 6037957990732979795}
+  - component: {fileID: 7896649756581062365}
   - component: {fileID: 9168520374643960369}
   m_Layer: 5
   m_Name: Bleu
@@ -779,6 +800,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7896649756581062365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566155108872412112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8f893f62812d349974c8ca77febb68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InactiveButtonImage: {fileID: 21300000, guid: 00f3f35e7c92c784ba5d40ea9dd1c370,
+    type: 3}
+  ActiveButtonImage: {fileID: 21300000, guid: f4f7e53196fba614caa7d0a1c4400b1d, type: 3}
+  portalManager: {fileID: 1175635639019012602}
+  portal: {fileID: 4478822821846358875}
 --- !u!114 &9168520374643960369
 MonoBehaviour:
   m_ObjectHideFlags: 0
