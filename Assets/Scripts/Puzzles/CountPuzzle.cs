@@ -26,12 +26,14 @@ public class CountPuzzle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.GetComponent<Grabable>() == null) { return; }
         this.counter += 1;
         this.CheckPuzzle();
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.GetComponent<Grabable>() == null) { return; }
         this.counter -= 1;
         this.CheckPuzzle();
     }
@@ -46,5 +48,10 @@ public class CountPuzzle : MonoBehaviour
         }
         obj.GetComponent<Renderer>().material = oldMaterial;
         return false;
+    }
+
+    public int getCounter()
+    {
+        return counter;
     }
 }
