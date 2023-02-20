@@ -8,8 +8,8 @@ public class CountPuzzle : MonoBehaviour
     public GameObject obj;
     public Material validMaterial;
     public int countTarget;
-    public Text debugtext;
-    
+    private AudioSource audioSource;
+
     private Material oldMaterial;
     private int counter = 0;
 
@@ -17,6 +17,9 @@ public class CountPuzzle : MonoBehaviour
     void Start()
     {
         oldMaterial = obj.GetComponent<Renderer>().material;
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = 0.2f;
+        audioSource.clip = Resources.Load<AudioClip>("DM-CGS-45");
     }
 
     // Update is called once per frame
@@ -40,9 +43,9 @@ public class CountPuzzle : MonoBehaviour
 
     private bool CheckPuzzle()
     {
-        this.debugtext.text = "Nombre d'éléments : " + this.counter.ToString();
         if (this.counter == countTarget)
         {
+            audioSource.Play();
             obj.GetComponent<Renderer>().material = validMaterial;
             return true;
         }
