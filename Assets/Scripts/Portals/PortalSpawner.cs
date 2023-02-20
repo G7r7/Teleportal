@@ -26,7 +26,6 @@ public class PortalSpawner : MonoBehaviour
     public void PlacePortal()
     {
         audioSource.Play();
-        Debug.Log("Hello");
 
         Physics.Raycast(controller.transform.position, controller.transform.forward, out RaycastHit hit);
 
