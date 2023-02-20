@@ -16,13 +16,22 @@ public class Portal : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<Teleportable>() == null) { return; } // Check if object is Teleportable
-        debugText.text = "Collision";
-        debugText.text = other.name;
+        Teleportable teleportable = other.gameObject.GetComponent<Teleportable>();
+        if (teleportable.teleporting) { return; } // We won't allow the object to be stuck in a teleportation loop
+        teleportable.teleporting = true;
+        teleportable.sourcePortalId = PortalId;
         PortalManager.TeleportObject(other.gameObject, PortalId);
+        debugText.text = "Collision";
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.GetComponent<Teleportable>() == null) { return; } // Check if object is Teleportable
+        Teleportable teleportable = other.gameObject.GetComponent<Teleportable>();
+        if (teleportable.teleporting && teleportable.sourcePortalId != PortalId) { // If we exit the portal on the other side
+            // We reset the teleporting flag
+            teleportable.teleporting = false;
+        }
         debugText.text = "No Collision";
     }
 }

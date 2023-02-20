@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Teleportable : MonoBehaviour
 {
+    public bool teleporting = false;
+    public int sourcePortalId;
+
     // Start is called before the first frame update
     void Start()
     {

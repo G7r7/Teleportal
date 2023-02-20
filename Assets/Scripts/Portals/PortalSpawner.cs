@@ -26,13 +26,13 @@ public class PortalSpawner : MonoBehaviour
 
         if (portalManager.currentPortal == 0)
         {
-            portalManager.portal1.SetActive(true);
+            portalManager.portal1.gameObject.SetActive(true);
             portalManager.portal1.transform.position = hit.point;
             portalManager.portal1.transform.rotation = hit.transform.gameObject.transform.rotation;
         }
         else
         {
-            portalManager.portal2.SetActive(true);
+            portalManager.portal2.gameObject.SetActive(true);
             portalManager.portal2.transform.position = hit.point;
             portalManager.portal2.transform.rotation = hit.transform.gameObject.transform.rotation;
         }
