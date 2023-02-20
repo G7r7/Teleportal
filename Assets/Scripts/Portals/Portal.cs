@@ -18,6 +18,7 @@ public class Portal : MonoBehaviour
         if (other.gameObject.GetComponent<Teleportable>() == null) { return; } // Check if object is Teleportable
         Teleportable teleportable = other.gameObject.GetComponent<Teleportable>();
         if (teleportable.teleporting) { return; } // We won't allow the object to be stuck in a teleportation loop
+        if (!PortalManager.portal1.isActiveAndEnabled || !PortalManager.portal2.isActiveAndEnabled) { return; }
         teleportable.teleporting = true;
         teleportable.sourcePortalId = PortalId;
         PortalManager.TeleportObject(other.gameObject, PortalId);
