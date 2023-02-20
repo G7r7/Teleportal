@@ -258,7 +258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43114bb3955e6344aa651eac98af148e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleported: 0
+  teleporting: 0
+  sourcePortalId: 0
 --- !u!114 &885055278 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 386453578042894713, guid: be33a9166bc94dd49a89eb1038de6ba3,
