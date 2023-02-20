@@ -491,8 +491,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1863740494858615007, guid: 0de7a1287ae68254cb6f18fa06082bda,
         type: 3}
+      propertyPath: info
+      value: 
+      objectReference: {fileID: 813410966}
+    - target: {fileID: 1863740494858615007, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
       propertyPath: countTarget
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556801324252151399, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556801324252151399, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556801324252151399, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556801324252151399, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556801324252151399, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181255632120236587, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181255632120236587, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028077091172060676, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 813410960}
+    - target: {fileID: 6028077091172060676, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028077091172060676, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0de7a1287ae68254cb6f18fa06082bda, type: 3}
@@ -1591,6 +1646,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleporting: 0
   sourcePortalId: 0
+--- !u!114 &813410966 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1447599655818299122, guid: be33a9166bc94dd49a89eb1038de6ba3,
+    type: 3}
+  m_PrefabInstance: {fileID: 813410959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &865701568
 PrefabInstance:
   m_ObjectHideFlags: 0

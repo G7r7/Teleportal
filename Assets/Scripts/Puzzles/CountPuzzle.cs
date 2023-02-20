@@ -9,6 +9,7 @@ public class CountPuzzle : MonoBehaviour
     public Material validMaterial;
     public int countTarget;
     private AudioSource audioSource;
+    public Text info;
 
     private Material oldMaterial;
     private int counter = 0;
@@ -20,6 +21,7 @@ public class CountPuzzle : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.volume = 0.2f;
         audioSource.clip = Resources.Load<AudioClip>("DM-CGS-45");
+        info.text = "Cubes récupérés : " + this.counter + "/" + this.countTarget;
     }
 
     // Update is called once per frame
@@ -43,6 +45,8 @@ public class CountPuzzle : MonoBehaviour
 
     private bool CheckPuzzle()
     {
+        info.text = "Cubes récupérés : " + this.counter + "/" + this.countTarget;
+
         if (this.counter == countTarget)
         {
             audioSource.Play();
