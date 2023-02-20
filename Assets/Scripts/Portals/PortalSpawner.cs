@@ -7,11 +7,14 @@ public class PortalSpawner : MonoBehaviour
 {
     public XRBaseController controller;
     public PortalManager portalManager;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = 0.3f;
+        audioSource.clip = Resources.Load<AudioClip>("DM-CGS-37");
     }
 
     // Update is called once per frame
@@ -22,6 +25,8 @@ public class PortalSpawner : MonoBehaviour
 
     public void PlacePortal()
     {
+        audioSource.Play();
+
         Physics.Raycast(controller.transform.position, controller.transform.forward, out RaycastHit hit);
 
         if (portalManager.currentPortal == 0)

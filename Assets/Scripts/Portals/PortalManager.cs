@@ -12,6 +12,15 @@ public class PortalManager : MonoBehaviour
     public XRBaseController controller;
     public PortalButton portal1Button;
     public PortalButton portal2Button;
+    private AudioSource audioSource;
+
+    public void Start()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = 0.2f;
+        audioSource.clip = Resources.Load<AudioClip>("DM-CGS-09");
+    }
+
 
     public void setCurrentFirstPortal()
     {
@@ -29,6 +38,8 @@ public class PortalManager : MonoBehaviour
 
     public void TeleportObject(GameObject obj, int sourceId)
     {
+        audioSource.Play();
+
         Vector3 newPosition;
         Quaternion rotation;
         if (sourceId == 0) {

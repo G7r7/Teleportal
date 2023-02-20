@@ -374,6 +374,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: setCurrentFirstPortal
       objectReference: {fileID: 0}
+    - target: {fileID: 7150435397090362544, guid: be33a9166bc94dd49a89eb1038de6ba3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be33a9166bc94dd49a89eb1038de6ba3, type: 3}
 --- !u!20 &1098866067 stripped
@@ -1025,6 +1030,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 617513413218277008, guid: 0c50bf67d941f304a94c2d25b31d7665,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 833792466587131647, guid: 0c50bf67d941f304a94c2d25b31d7665,
         type: 3}
       propertyPath: debug
