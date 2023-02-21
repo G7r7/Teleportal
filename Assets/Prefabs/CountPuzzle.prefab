@@ -112,3 +112,4 @@ MonoBehaviour:
   validMaterial: {fileID: 2100000, guid: e50d0f8524587d84fb82c4332344a5d7, type: 2}
   countTarget: 3
   info: {fileID: 0}
+  winMenu: {fileID: 0}

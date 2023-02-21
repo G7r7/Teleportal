@@ -496,6 +496,11 @@ PrefabInstance:
       objectReference: {fileID: 813410966}
     - target: {fileID: 1863740494858615007, guid: 0de7a1287ae68254cb6f18fa06082bda,
         type: 3}
+      propertyPath: winMenu
+      value: 
+      objectReference: {fileID: 813410967}
+    - target: {fileID: 1863740494858615007, guid: 0de7a1287ae68254cb6f18fa06082bda,
+        type: 3}
       propertyPath: countTarget
       value: 1
       objectReference: {fileID: 0}
@@ -1658,6 +1663,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &813410967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1505266665013783297, guid: be33a9166bc94dd49a89eb1038de6ba3,
+    type: 3}
+  m_PrefabInstance: {fileID: 813410959}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &865701568
 PrefabInstance:
   m_ObjectHideFlags: 0

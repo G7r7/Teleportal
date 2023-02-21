@@ -10,6 +10,8 @@ public class CountPuzzle : MonoBehaviour
     public int countTarget;
     private AudioSource audioSource;
     public Text info;
+    public bool isMenuDisplayable;
+    public GameObject winMenu;
 
     private Material oldMaterial;
     private int counter = 0;
@@ -51,6 +53,10 @@ public class CountPuzzle : MonoBehaviour
         {
             audioSource.Play();
             obj.GetComponent<Renderer>().material = validMaterial;
+            if (isMenuDisplayable)
+            {
+                winMenu.SetActive(true);
+            }
             return true;
         }
         obj.GetComponent<Renderer>().material = oldMaterial;
